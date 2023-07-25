@@ -25,7 +25,6 @@ import java.util.List;
 @Api(value = "API REST Sessions")
 @CrossOrigin(origins = "*")
 public class SessionResource {
-
     private final SessionService sessionService;
 
     public SessionResource(SessionService sessionService) {
