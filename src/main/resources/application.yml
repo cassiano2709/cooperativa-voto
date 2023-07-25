@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  profiles:
+    active: prod
+  application:
+    name: cooperativa
+
+cooperativa:
+  app:
+    name: 'cooperativa-service'
+  cpfExternalApi:
+    url: https://user-info.herokuapp.com/users
+    results:
+      unableToVote: UNABLE_TO_VOTE
+      ableToVote: ABLE_TO_VOTE
+
+mensageria:
+  topic:
+    name: sessions_closed
+
+debug: true
+
+logging:
+  level:
+    br.com.ntconsult: 'DEBUG'
