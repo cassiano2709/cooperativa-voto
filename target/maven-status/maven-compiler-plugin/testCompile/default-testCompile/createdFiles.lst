@@ -1,0 +1,8 @@
+br\com\ntconsult\cooperativa\web\rest\v1\VoteResourceTest.class
+br\com\ntconsult\cooperativa\service\impl\SessionServiceImplTest.class
+br\com\ntconsult\cooperativa\service\impl\SubjectServiceImplTest.class
+br\com\ntconsult\cooperativa\web\rest\v1\SubjectResourceTest.class
+br\com\ntconsult\cooperativa\MainTests.class
+br\com\ntconsult\cooperativa\service\impl\AffiliatedServiceImplTest.class
+br\com\ntconsult\cooperativa\service\impl\VoteServiceImplTest.class
+br\com\ntconsult\cooperativa\web\rest\v1\SessionResourceTest.class
