@@ -24,7 +24,6 @@ import javax.validation.Valid;
 @Api(value = "API REST Votes")
 @CrossOrigin(origins = "*")
 public class VoteResource {
-
     private final VoteService voteService;
 
     public VoteResource(VoteService voteService) {
